@@ -24,4 +24,3 @@ This script provides an alternative implementation of the `gemm` function in Pyt
 
 This implementation uses the `numba.njit` decorator to JIT-compile the `gemm` function and also uses `numba.prange` to parallelize the outer loop for faster execution on multi-core CPUs.
 
-Overall, these scripts provide a basic implementation of a general matrix multiplication function in Python, along with test cases for validating the correctness of the implementation.
